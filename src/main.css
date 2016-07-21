@@ -1,0 +1,31 @@
+.row:nth-child(2)
+{
+  margin-bottom: 15px;
+}
+
+img
+{
+  display: block;
+  margin: auto;
+}
+
+h4
+{
+  display: inline;
+}
+
+h4:first-of-type
+{
+  margin-bottom: 15px;
+  display: block;
+}
+
+.load
+{
+  width: 100px;
+}
+
+p
+{
+  text-align: center;
+}

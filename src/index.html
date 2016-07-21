@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Bootsrap Sign In</title>
+    <title>AJAX</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -14,21 +14,43 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha384-kVo/Eh0sv7ZdiwZK32nRsp1FrDT3sLRLx3zVpSSTI9UdO5H02LJNLBg5F1gwvKg0" crossorigin="anonymous">
 
-    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="main.css">
 
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-6">
-          
-        </div>
-        <div class="col-md-6 col-sm-6">
-          <div class="result">
+      <h1>Pokemon Finder</h1>
+      <h4>Enter a name or any number!</h4>
+      <form>
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
 
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" placeholder="pikachu">
+                </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="form-group">
+                <input type="number" class="form-control" id="number" placeholder="1-721">
+              </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <button type="submit" class="btn btn-default btn-block">Submit</button>
           </div>
         </div>
-      </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <div class="pokemon well well-lg">
+              <h4>
+                Your Pokemon will go here.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
 
     <!-- JQuery 2.2.4 (bootstrap requires above 1.9.1 and below 3.0.0) -->
